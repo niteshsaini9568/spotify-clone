@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;1,300;1,400;1,500&family=Poppins:wght@600&family=Roboto:ital,wght@0,900;1,300&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <div class="main">
@@ -27,9 +26,9 @@
             </div>
 
             <div class="library">
-                <div class="options">
+                <div id="options">
                     <div class="lib-options nav-option">
-                        <img src="library_icon.png" class="image" alt="img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="white" d="M5.5 3A1.5 1.5 0 0 1 7 4.5v15A1.5 1.5 0 0 1 5.5 21h-2A1.5 1.5 0 0 1 2 19.5v-15A1.5 1.5 0 0 1 3.5 3zm6 0A1.5 1.5 0 0 1 13 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-2A1.5 1.5 0 0 1 8 19.5v-15A1.5 1.5 0 0 1 9.5 3zm7.281 3.124l3.214 12.519a1.5 1.5 0 0 1-1.08 1.826l-1.876.48a1.5 1.5 0 0 1-1.826-1.08L13.999 7.354a1.5 1.5 0 0 1 1.08-1.826l1.876-.483a1.502 1.502 0 0 1 1.826 1.08"/></svg>
                         <a href="#">Your library</a>
                     </div>
                     <div class="icons">
@@ -58,8 +57,8 @@
                     <img src="Images/forward_icon.png" class="hide" alt="img" />
                 </div>
                 <div class="sticky-nav-options">
-                    <button type="button"class="badge nav-item hide">Explore premium</button>
-                    <button type="button" class="badge  nav-item dark-badge "><i class="fa-solid fa-download"></i>Install app</button>
+                    <button type="button"class="badge nav-item hide" style="cursor: pointer;">Explore premium</button>
+                    <button type="button" class="badge  nav-item dark-badge " style="cursor: pointer;"><i class="fa-solid fa-download" style="margin-right: 10px; cursor: pointer;"></i>Install app</button>
                     <i class="fa-regular fa-user  nav-item"></i>
                 </div>
                 
@@ -163,6 +162,7 @@
                     </div>
 
                 </div>
+                <hr>
               <div class="footer">
                 <div class="line"></div>
               </div>
@@ -176,41 +176,179 @@
                 </div>
 
                 <div class="like">
-                    <i class="fa-regular fa-thumbs-up"></i>
-                    <i class="fa-solid fa-thumbs-down"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M23 10a2 2 0 0 0-2-2h-6.32l.96-4.57c.02-.1.03-.21.03-.32c0-.41-.17-.79-.44-1.06L14.17 1L7.59 7.58C7.22 7.95 7 8.45 7 9v10a2 2 0 0 0 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73zM1 21h4V9H1z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M19 15h4V3h-4m-4 0H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2a2 2 0 0 0 2 2h6.31l-.95 4.57c-.02.1-.03.2-.03.31c0 .42.17.79.44 1.06L9.83 23l6.58-6.59c.37-.36.59-.86.59-1.41V5a2 2 0 0 0-2-2"/></svg>
                 </div>   
 
             </div>
             <div class="player">
                 <div class="player-icon">
                     <div class="p-icon">
-                    <img src="Images/player_icon1.png"alt="img" class="updateimg"/>
-                    <img src="Images/player_icon2.png"alt="img" class="updateimg"/>
-                    <img src="Images/play_musicbar.png"alt="img" class="updateimg"/>
-                    <img src="Images/player_icon4.png"alt="img" class="updateimg"/>
-                    <img src="Images/player_icon5.png"alt="img" class="updateimg"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256"><path fill="currentColor" d="M240.49 175.51a12 12 0 0 1 0 17l-24 24a12 12 0 0 1-17-17L203 196h-2.09a76.17 76.17 0 0 1-61.85-31.83l-41.68-58.39A52.1 52.1 0 0 0 55.06 84H32a12 12 0 0 1 0-24h23.06a76.17 76.17 0 0 1 61.85 31.83l41.71 58.39A52.1 52.1 0 0 0 200.94 172H203l-3.52-3.51a12 12 0 0 1 17-17Zm-95.62-72.62a12 12 0 0 0 16.93-1.13A52 52 0 0 1 200.94 84H203l-3.52 3.51a12 12 0 0 0 17 17l24-24a12 12 0 0 0 0-17l-24-24a12 12 0 0 0-17 17L203 60h-2.09a76 76 0 0 0-57.2 26a12 12 0 0 0 1.16 16.89m-33.74 50.22a12 12 0 0 0-16.93 1.13A52 52 0 0 1 55.06 172H32a12 12 0 0 0 0 24h23.06a76 76 0 0 0 57.2-26a12 12 0 0 0-1.13-16.89"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16"><path fill="currentColor" d="M14 3.002a1 1 0 0 0-1.578-.816l-7 4.963a1 1 0 0 0-.007 1.628l7 5.037A1 1 0 0 0 14 13.003zM2 2.5a.5.5 0 0 1 1 0v11a.5.5 0 0 1-1 0z"/></svg>  
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M1.5 8a6.5 6.5 0 1 0 13 0a6.5 6.5 0 0 0-13 0m4.879-2.773l4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 15 15"><path fill="currentColor" d="M1.79 2.093A.5.5 0 0 0 1 2.5v10a.5.5 0 0 0 .79.407l7-5a.5.5 0 0 0 0-.814zM13 13h1V2h-1z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><defs><symbol id="lineMdCogLoop0"><path fill="none" stroke-width="2" d="M15.24 6.37C15.65 6.6 16.04 6.88 16.38 7.2C16.6 7.4 16.8 7.61 16.99 7.83C17.46 8.4 17.85 9.05 18.11 9.77C18.2 10.03 18.28 10.31 18.35 10.59C18.45 11.04 18.5 11.52 18.5 12"><animate fill="freeze" attributeName="d" begin="0.8s" dur="0.2s" values="M15.24 6.37C15.65 6.6 16.04 6.88 16.38 7.2C16.6 7.4 16.8 7.61 16.99 7.83C17.46 8.4 17.85 9.05 18.11 9.77C18.2 10.03 18.28 10.31 18.35 10.59C18.45 11.04 18.5 11.52 18.5 12;M15.24 6.37C15.65 6.6 16.04 6.88 16.38 7.2C16.38 7.2 19 6.12 19.01 6.14C19.01 6.14 20.57 8.84 20.57 8.84C20.58 8.87 18.35 10.59 18.35 10.59C18.45 11.04 18.5 11.52 18.5 12"/></path></symbol></defs><g fill="none" stroke="currentColor" stroke-width="2"><g stroke-linecap="round" stroke-linejoin="round"><path stroke-dasharray="42" stroke-dashoffset="42" d="M12 5.5C15.59 5.5 18.5 8.41 18.5 12C18.5 15.59 15.59 18.5 12 18.5C8.41 18.5 5.5 15.59 5.5 12C5.5 8.41 8.41 5.5 12 5.5z" opacity="0"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.5s" values="42;0"/><set attributeName="opacity" begin="0.2s" to="1"/><set attributeName="opacity" begin="0.7s" to="0"/></path><path stroke-dasharray="20" stroke-dashoffset="20" d="M12 9C13.66 9 15 10.34 15 12C15 13.66 13.66 15 12 15C10.34 15 9 13.66 9 12C9 10.34 10.34 9 12 9z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="20;0"/></path></g><g opacity="0"><use href="#lineMdCogLoop0"/><use href="#lineMdCogLoop0" transform="rotate(60 12 12)"/><use href="#lineMdCogLoop0" transform="rotate(120 12 12)"/><use href="#lineMdCogLoop0" transform="rotate(180 12 12)"/><use href="#lineMdCogLoop0" transform="rotate(240 12 12)"/><use href="#lineMdCogLoop0" transform="rotate(300 12 12)"/><set attributeName="opacity" begin="0.7s" to="1"/><animateTransform attributeName="transform" dur="30s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></g></g></svg>
                     </div>
                     
                 </div>
                 <div class="player-bar">
                     <p>00.00</p>
                     <div class="slider">
-                        <input type="range" min="0" max="11" class="updateplayerbar" title="bar"/>
+                        <input type="range" min="0" max="15" class="updateplayerbar" title="bar" style="width: 350px;" />
                     </div>
                     <p>05.00</p>
                 </div>
             </div>
             <div class="control">
                 <div class="control-icons">
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-gears"></i>
-                    <i class="fa-solid fa-volume-high"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M3 16h18v2H3zm0-5h18v2H3zm0-5h18v2H3z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="m12 21.35l-1.45-1.32C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 48 48"><circle cx="24" cy="24" r="21.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M30 24.087h15.5m-15.363-12.67a14 14 0 0 1 4.46 3.435m.128 18.147a14 14 0 0 1-4.588 3.584M16.375 12.259a14 14 0 0 1 8.845-2.206M10.007 24.44a14 14 0 0 1 2.483-8.41m5.154 20.444a14 14 0 0 1-6.434-6.78m12.567 6.003V45.5m10.948-12.501l6.548 3.804M11.21 29.694l-6.27 4.254m7.55-17.918l-6.394-3.933m19.124-2.044l.08-7.514m9.298 12.313l6.459-3.94"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 16c0-8-5-14-5-14l-7 8H2v12h6l7 8s5-6 5-14m1-14s4 4 4 14s-4 14-4 14m6-26s3 4 3 12s-3 12-3 12"/></svg>
                     <input type="range" min="0" max="11" title="icon" class="updateicon"/>
                 </div>
-                
             </div>
         </div>
+    </div>
+    <!-- -------------------------------------For Mobile Version----------------------------->
+    <div class="mb-main">
+        <div class="mb-nav">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="green"><path d="m11.948 14.829l-1.414 1.414L6.29 12l4.243-4.243l1.414 1.415L10.12 11h7.537v2H10.12z"/><path fill-rule="evenodd" d="M4.222 19.778c-4.296-4.296-4.296-11.26 0-15.556c4.296-4.296 11.26-4.296 15.556 0c4.296 4.296 4.296 11.26 0 15.556c-4.296 4.296-11.26 4.296-15.556 0m1.414-1.414A9 9 0 1 1 18.364 5.636A9 9 0 0 1 5.636 18.364" clip-rule="evenodd"/></g></svg>
+            <a href="#" id="mb-a-1">All</a>
+            <a href="#" >Music</a>
+            <a href="#" >Podcast</a>
+        </div>
+        <div class="mb-recent">
+            <div class="mb-recent-1">
+                <div class="mb-recent-2">
+                    <img src="Images/cheque.jpg" >
+                    <p>Cheque</p>
+                </div>
+                <div class="mb-recent-2">
+                    <img src="Images/tujhe kitna chane lge hum.jpg" >
+                    <p>Tujhe kitna..</p>
+                </div>
+            </div>
+            <div class="mb-recent-1">
+                <div class="mb-recent-2">
+                    <img src="Images/mi amor.jpg" >
+                    <p>Mi Amor</p>
+                </div>
+                <div class="mb-recent-2">
+                    <img src="Images/arijit1.jpeg" >
+                    <p>Top-Arijit..</p>
+                </div>
+            </div>
+            <div class="mb-recent-1">
+                <div class="mb-recent-2">
+                    <img src="Images/card2img.jpeg">
+                    <p>Mahiye jinna</p>
+                </div>
+                <div class="mb-recent-2">
+                    <img src="Images/card3img.jpeg" >
+                    <p>Mere pas </p>
+                </div>
+            </div>
+        </div>
+        <section class="section-2">
+            <h1 style="margin-left: 18px;">Jumped Back in</h1>
+            <div class="mb-playlist">
+                <div class="mb-playlist-1">
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card1img.jpeg">
+                        <p>asperiores</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card2img.jpeg">
+                        <p>consectetur</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card3img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card4img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card5img.jpeg">
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="mb-playlist-1">
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card6img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card5img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card4img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card3img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card2img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-2">
+            <h1 style="margin-left: 18px;">Jumped Back in</h1>
+            <div class="mb-playlist">
+                <div class="mb-playlist-1">
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card5img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card6img.jpeg">
+                        <p>ALorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card1img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card3img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card2img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+                <div class="mb-playlist-1">
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card4img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card2img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card6img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card5img.jpeg">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="mb-playlist-1-1">
+                        <img src="Images/card1img.jpeg">
+                        <p>Alter ego</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
